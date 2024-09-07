@@ -6,9 +6,10 @@
 }
 
 body {
-  font-family: 'InterTight', sans-serif;
+  font-family: 'Marck Script', sans-serif;
+  font-weight: 700;
   margin: 0;
-  background-color: #1c1d20;
+  background-color: white;
 }
 
 h1,

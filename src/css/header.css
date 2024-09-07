@@ -1,7 +1,11 @@
 .header {
     display: flex;
-    justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 0;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.35);
+    width: 100%;
 }
 
 .menu-svg {
@@ -9,7 +13,46 @@
     height: 32px;
 }
 
+.menu-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.menu-wrapper {
+
+}
+
 .logo {
     width: 32px;
     height: 32px;
+}
+
+.navigation {
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+}
+
+.tablet-li {
+    display: none;
+}
+
+.desktop-li {
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .tablet-li {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .tablet-li {
+        display: inline-block;
+    }
+
+    .desktop-li {
+        display: inline-block;
+    }
 }
