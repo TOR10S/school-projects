@@ -1,0 +1,43 @@
+.navigation {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.button-next, .button-prev {
+    border-radius: 60px;
+    border: 1px solid rgba(21, 20, 20, 0.5);
+    background-color: transparent;
+    padding: 14px;
+    width: 52px;
+    height: 52px;
+}
+
+.info-wrapper {
+    background-color: #FAFAFA;
+    border-radius: 16px;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+    padding: 24px;
+}
+
+.info-text {
+    font-family: 'InterTight';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.64px;
+    text-align: center;
+}
+
+.info-link {
+    transition: all .35s linear;
+    color: rgb(23, 20, 20);
+    text-shadow: none;
+    font-weight: 500    
+}
+
+.info-link:hover, .info-link:active {
+    color: rgb(0, 183, 255);
+    text-shadow: 1px 1px 2px black;
+}
